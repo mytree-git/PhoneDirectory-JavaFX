@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="458.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="useroperateddirectoryassistance.UserOperatedDirectoryAssistanceController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="40.0" layoutY="63.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="1" />
+      <Button fx:id="btnTwo" layoutX="100.0" layoutY="63.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="2 ABC" />
+      <Button fx:id="btnThree" layoutX="161.0" layoutY="63.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="3 DEF" />
+      <Button fx:id="btnFour" layoutX="40.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="4 GHI" />
+      <Button fx:id="btnFive" layoutX="100.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="5 JKL" />
+      <Button fx:id="btnSix" layoutX="161.0" layoutY="95.0" mnemonicParsing="false" text="6 MNO" />
+      <Button fx:id="btnSeven" layoutX="40.0" layoutY="125.0" mnemonicParsing="false" text="7 PQRS" />
+      <Button fx:id="btnEight" layoutX="100.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="8 TUV" />
+      <Button fx:id="btnNine" layoutX="158.0" layoutY="125.0" mnemonicParsing="false" text="9 WXYZ" />
+      <Button layoutX="40.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="*" />
+      <Button layoutX="100.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="0" />
+      <Button layoutX="161.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="#" />
+      <Label layoutX="40.0" layoutY="216.0" text="Push-Button" />
+      <TextField fx:id="txtPushButton" layoutX="120.0" layoutY="212.0" prefHeight="25.0" prefWidth="83.0" />
+      <TextArea fx:id="outputScreen" layoutX="251.0" layoutY="67.0" prefHeight="140.0" prefWidth="179.0" />
+      <Button fx:id="btnNewLookUp" layoutX="255.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" text="Look up another employee" />
+    </children>
+</AnchorPane>
